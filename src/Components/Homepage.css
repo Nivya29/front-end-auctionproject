@@ -1,0 +1,47 @@
+/* Style for the home page container */
+.home-page {
+  text-align: center;
+  padding: 20px;
+  position: relative; /* Positioning context for overlay */
+  color: #fff; /* Ensure text is readable on background image */
+  min-height: 100vh; /* Full viewport height */
+  background: url('/src/img1.jpg') no-repeat center center; /* Set background image */
+  background-size: cover; /* Ensure image covers the container */
+}
+
+/* Style for the content area */
+.content {
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+  padding: 20px;
+  border-radius: 8px; /* Optional: rounded corners */
+  display: inline-block; /* Ensure content area does not stretch full width */
+}
+
+/* Style for buttons */
+.home-page-buttons {
+  margin-top: 20px;
+}
+
+.home-page-buttons button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: #fff; /* White text color */
+}
+
+.home-page-buttons button.register-button {
+  background-color: #28a745; /* Green background for register button */
+}
+
+.home-page-buttons button.login-button {
+  background-color: #007bff; /* Blue background for login button */
+}
+
+.home-page-buttons button:hover {
+  opacity: 0.8; /* Slightly reduce opacity on hover */
+}

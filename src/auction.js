@@ -1,0 +1,86 @@
+const auctions = [
+    {
+      id: 1,
+      title: 'Antique Oak Dining Table',
+      description: 'Beautiful oak dining table from the early 20th century.',
+      currentBid: 500,
+      endTime: '2024-08-01T12:00:00Z',
+      imageUrl: 'img1.avif',
+    },
+    {
+      id: 2,
+      title: 'Vintage Rolex Watch',
+      description: 'Rolex Oyster Perpetual from the 1970s in excellent condition.',
+      currentBid: 2500,
+      endTime: '2024-08-05T10:00:00Z',
+      imageUrl: 'https://example.com/rolex-watch.jpg',
+    },
+    {
+      id: 3,
+      title: 'Rare Baseball Card Collection',
+      description: 'Collection of vintage baseball cards including rare rookie cards.',
+      currentBid: 1500,
+      endTime: '2024-07-25T15:30:00Z',
+      imageUrl: 'https://example.com/baseball-cards.jpg',
+    },
+    {
+      id: 4,
+      title: 'Antique Persian Rug',
+      description: 'Handwoven Persian rug from the 19th century, intricate design.',
+      currentBid: 3000,
+      endTime: '2024-08-10T14:00:00Z',
+      imageUrl: 'https://example.com/persian-rug.jpg',
+    },
+    {
+      id: 5,
+      title: 'Vintage Gibson Les Paul Guitar',
+      description: 'Classic electric guitar used by famous musicians in the 1960s.',
+      currentBid: 4000,
+      endTime: '2024-08-15T11:30:00Z',
+      imageUrl: 'https://example.com/gibson-guitar.jpg',
+    },
+    {
+      id: 6,
+      title: 'Original Picasso Painting',
+      description: 'Rare artwork by Pablo Picasso from his Blue Period.',
+      currentBid: 10000,
+      endTime: '2024-08-20T16:00:00Z',
+      imageUrl: 'https://example.com/picasso-painting.jpg',
+    },
+    {
+      id: 7,
+      title: 'Vintage Leica Camera',
+      description: 'Leica M3 camera with original leather case and lenses.',
+      currentBid: 3500,
+      endTime: '2024-08-25T09:00:00Z',
+      imageUrl: 'https://example.com/leica-camera.jpg',
+    },
+    {
+      id: 8,
+      title: 'Ancient Roman Coin Collection',
+      description: 'Collection of ancient Roman coins, various emperors and denominations.',
+      currentBid: 2000,
+      endTime: '2024-08-30T13:45:00Z',
+      imageUrl: 'https://example.com/roman-coins.jpg',
+    },
+    {
+      id: 9,
+      title: 'Rare First Edition Books',
+      description: 'Collection of first edition books from renowned authors.',
+      currentBid: 6000,
+      endTime: '2024-09-05T17:30:00Z',
+      imageUrl: 'https://example.com/first-edition-books.jpg',
+    },
+    {
+      id: 10,
+      title: 'Vintage Typewriter Collection',
+      description: 'Assortment of vintage typewriters, including famous models.',
+      currentBid: 1800,
+      endTime: '2024-09-10T10:15:00Z',
+      imageUrl: 'https://example.com/typewriter-collection.jpg',
+    },
+    // Add more auction objects as needed
+  ];
+  
+  export default auctions;
+  

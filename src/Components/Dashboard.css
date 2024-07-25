@@ -1,0 +1,35 @@
+.dashboard {
+    display: flex;
+}
+
+.side-panel {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.side-panel ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.side-panel li {
+    margin: 10px 0;
+}
+
+.side-panel button {
+    background: none;
+    border: none;
+    color: blue;
+    cursor: pointer;
+    padding: 0;
+}
+
+.side-panel button:hover {
+    text-decoration: underline;
+}
