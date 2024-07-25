@@ -24,7 +24,7 @@ const RegisterForm = ({ onRegisterSuccess }) => {
         justifyContent: 'center',
         alignItems: 'center',
         height: '100vh',
-        backgroundImage: 'url(src/img1.jpg)', 
+        backgroundImage: 'url("src/img1.jpg")', 
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
