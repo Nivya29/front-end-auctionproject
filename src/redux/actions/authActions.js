@@ -1,4 +1,4 @@
-// src/redux/actions/authActions.js
+
 import api from '../../utils/api';
 
 export const registerUser = (userData) => async (dispatch) => {

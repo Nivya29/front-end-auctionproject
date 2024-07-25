@@ -10,7 +10,7 @@ const RegisterForm = ({ onRegisterSuccess }) => {
     const handleRegister = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('http://localhost:5006/api/auth/register', { username, email, password });
+            const response = await axios.post('https://back-end-auctionproject.onrender.com/api/auth/register', { username, email, password });
             console.log('Registration success:', response.data);
             if (onRegisterSuccess) onRegisterSuccess(); // Call the callback on success
         } catch (error) {
@@ -24,7 +24,7 @@ const RegisterForm = ({ onRegisterSuccess }) => {
         justifyContent: 'center',
         alignItems: 'center',
         height: '100vh',
-        backgroundImage: 'url(src/img1.jpg)', // Replace with your image path
+        backgroundImage: 'url(src/img1.jpg)', 
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
@@ -40,7 +40,7 @@ const RegisterForm = ({ onRegisterSuccess }) => {
         borderRadius: '8px',
         boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
         backgroundColor: '#ffffff',
-        opacity: 0.9 // Optional: add some opacity to blend with background
+        opacity: 0.9 
     };
 
     const titleStyle = {

@@ -5,10 +5,10 @@ const Dashboards = () => {
     const containerStyle = {
         display: 'flex',
         minHeight: '100vh',
-        backgroundImage: 'url("src/img1.jpg")', // Replace with your background image URL
+        backgroundImage: 'url("src/img1.jpg")', 
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        color: '#ffffff', // Text color to ensure readability over the background image
+        color: '#ffffff', 
         fontFamily: 'Arial, sans-serif',
     };
 
@@ -17,7 +17,7 @@ const Dashboards = () => {
         width: '20%',
         borderRight: '1px solid #ccc',
         padding: '10px',
-        backgroundColor: 'rgba(0, 0, 0, 0.5)', // Darker background for better readability
+        backgroundColor: 'rgba(0, 0, 0, 0.5)', 
         color: '#ffffff',
     };
 
@@ -25,7 +25,7 @@ const Dashboards = () => {
     const contentStyle = {
         width: '80%',
         padding: '20px',
-        backgroundColor: 'rgba(0, 0, 0, 0.5)', // Darker background for better readability
+        backgroundColor: 'rgba(0, 0, 0, 0.5)', 
         color: '#ffffff',
     };
 

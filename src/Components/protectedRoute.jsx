@@ -1,19 +1,19 @@
 
-import PropTypes from 'prop-types'; // Import PropTypes
+import PropTypes from 'prop-types'; 
 import { Navigate } from 'react-router-dom';
-import { useAuth } from '../context/AuthContext'; // Ensure correct path
+import { useAuth } from '../context/AuthContext'; 
 
 const ProtectedRoute = ({ children }) => {
-    const { isAuthenticated, loading } = useAuth(); // Use auth context
+    const { isAuthenticated, loading } = useAuth(); 
 
     if (loading) {
-        return <div>Loading...</div>; // Show loading state
+        return <div>Loading...</div>; 
     }
 
     return isAuthenticated ? children : <Navigate to="/login" />;
 };
 
-// Add PropTypes validation
+
 ProtectedRoute.propTypes = {
     children: PropTypes.node.isRequired,
 };

@@ -2,20 +2,20 @@
 .home-page {
   text-align: center;
   padding: 20px;
-  position: relative; /* Positioning context for overlay */
-  color: #fff; /* Ensure text is readable on background image */
-  min-height: 100vh; /* Full viewport height */
-  background: url('/src/img1.jpg') no-repeat center center; /* Set background image */
-  background-size: cover; /* Ensure image covers the container */
+  position: relative; 
+  color: #fff; 
+  min-height: 100vh; 
+  background: url('/src/img1.jpg') no-repeat center center; 
+  background-size: cover; 
 }
 
 /* Style for the content area */
 .content {
   margin-top: 20px;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+  background-color: rgba(0, 0, 0, 0.5); 
   padding: 20px;
-  border-radius: 8px; /* Optional: rounded corners */
-  display: inline-block; /* Ensure content area does not stretch full width */
+  border-radius: 8px; 
+  display: inline-block; 
 }
 
 /* Style for buttons */
@@ -31,17 +31,17 @@
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  color: #fff; /* White text color */
+  color: #fff; 
 }
 
 .home-page-buttons button.register-button {
-  background-color: #28a745; /* Green background for register button */
+  background-color: #28a745; 
 }
 
 .home-page-buttons button.login-button {
-  background-color: #007bff; /* Blue background for login button */
+  background-color: #007bff; 
 }
 
 .home-page-buttons button:hover {
-  opacity: 0.8; /* Slightly reduce opacity on hover */
+  opacity: 0.8; 
 }

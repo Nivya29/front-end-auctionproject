@@ -13,14 +13,14 @@ const Dashboard = () => {
                     'x-auth-token': token
                 }
             };
-            const response = await axios.get('http://localhost:5006/api/protected-endpoint', config);
+            const response = await axios.get('https://back-end-auctionproject.onrender.com/api/protected-endpoint', config);
             setUserData(response.data);
         } catch (error) {
             console.error('Error fetching user data:', error);
         }
     };
 
-    // Fetch user data on component mount
+    
     useEffect(() => {
         fetchUserData();
     }, []);

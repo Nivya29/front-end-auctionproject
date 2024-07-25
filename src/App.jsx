@@ -101,11 +101,11 @@ const App = () => {
       endTime: '2024-09-10T10:15:00Z',
       imageUrl: 'img10.jpg',
     },
-        // Add more auction objects as needed
+        
       ];
 
       const handleBidPlaced = (auctionId, bidAmount) => {
-        // Handle bid placement logic here
+        
         console.log(`Bid of ${bidAmount} placed on auction ${auctionId}`);
       };
 

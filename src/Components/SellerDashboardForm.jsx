@@ -10,7 +10,7 @@ const initialAuctions = [
     endTime: '2024-08-01T12:00:00Z',
     imageUrl: 'https://example.com/oak-table.jpg',
   },
-  // Add more sample auctions if needed
+  
 ];
 
 const SellerDashboardForm = () => {

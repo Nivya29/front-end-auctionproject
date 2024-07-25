@@ -1,6 +1,6 @@
-// src/Components/HomePage.jsx
+
 import { Link } from 'react-router-dom';
-import './Homepage.css'; // Assuming you have a CSS file for styling
+import './Homepage.css'; 
 
 const HomePage = () => {
   return (

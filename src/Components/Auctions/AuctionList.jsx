@@ -91,11 +91,11 @@ const AuctionList = ({ auctions, onBidPlaced }) => {
       <Toast
         style={{
           position: 'fixed',
-          top: '20px', /* Position toast at the top */
-          right: '20px', /* Position toast to the right */
-          zIndex: 1050, /* Ensure it appears on top of other elements */
-          maxWidth: '300px', /* Set a maximum width */
-          width: 'auto' /* Adjust width automatically */
+          top: '20px', 
+          right: '20px', 
+          zIndex: 1050, 
+          maxWidth: '300px', 
+          width: 'auto' 
         }}
         show={showToast}
         onClose={() => setShowToast(false)}

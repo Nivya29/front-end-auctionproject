@@ -11,7 +11,7 @@ const LoginForm = ({ onLoginSuccess }) => {
 
     const handleLogin = async () => {
         try {
-            const response = await axios.post('http://localhost:5006/api/auth/login', { email, password });
+            const response = await axios.post('https://back-end-auctionproject.onrender.com/api/auth/login', { email, password });
             console.log('Login success:', response.data);
             localStorage.setItem('token', response.data.token);
             onLoginSuccess();
@@ -32,7 +32,7 @@ const LoginForm = ({ onLoginSuccess }) => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundImage: 'url("src/img1.jpg")', // Replace with your background image URL
+        backgroundImage: 'url("src/img1.jpg")', 
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         padding: '20px',
@@ -44,7 +44,7 @@ const LoginForm = ({ onLoginSuccess }) => {
         padding: '20px',
         borderRadius: '8px',
         boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
-        backgroundColor: 'rgba(255, 255, 255, 0.9)', // Slightly transparent white background
+        backgroundColor: 'rgba(255, 255, 255, 0.9)', 
     };
 
     const headingStyle = {

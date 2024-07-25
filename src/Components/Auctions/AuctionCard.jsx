@@ -14,7 +14,7 @@ const AuctionCard = ({ auction }) => {
     const handlePlaceBid = async () => {
         if (bidAmount > auction.currentBid) {
             try {
-                await axios.post('http://localhost:5006/api/bids', {
+                await axios.post('https://back-end-auctionproject.onrender.com/api/bids', {
                     auctionId: auction.id,
                     bidAmount,
                 });
